@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+header button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+
+header button:hover {
+    background-color: #777;
+}
+
+main {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile, .users {
+    margin-bottom: 2em;
+}
+
+.profile h2, .users h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5em;
+}
+
+.profile p {
+    font-size: 1.1em;
+}
+
+.profile button {
+    background-color: #008cba;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+
+.profile button:hover {
+    background-color: #005f5f;
+}
+
+.users input {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ddd;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 0.5em;
+    text-align: left;
+}
+
+button {
+    background-color: #008cba;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005f5f;
+}
+.qwe{
+    padding: 10px;
+}
